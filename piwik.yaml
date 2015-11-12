@@ -1,0 +1,3 @@
+enabled: true        # global enable/disable the entire plugin
+siteId: 0            # site piwik tracking ID
+sitePiWikURL: ''      # site piwik url
