@@ -37,4 +37,5 @@ form:
       label: url piwik
       size: medium
       placeholder: example.com/privacy-url
-      help: Add url piwik
+      description: Please enter Piwik server location without 'http://' or 'https://'
+      help: Add Piwik URL
