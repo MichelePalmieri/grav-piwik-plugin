@@ -1,5 +1,5 @@
 name: piwik
-version: 1.0.1
+version: 1.0.2
 description: "piwik plugin Grav website."
 icon: location-arrow
 author:
@@ -36,5 +36,5 @@ form:
       type: text
       label: url piwik
       size: medium
-      placeholder: http://example.com/privacy-url
+      placeholder: example.com/privacy-url
       help: Add url piwik
