@@ -28,13 +28,13 @@ form:
     siteId:
       type: text
       size: medium
-      label: site ID
+      label: Site ID
       placeholder: 0
       help: piwik tracking ID. In format integer.
      
     sitePiWikURL:
       type: text
-      label: url piwik
+      label: Piwik URL
       size: medium
       placeholder: example.com/privacy-url
       description: Please enter Piwik server location without 'http://' or 'https://'
