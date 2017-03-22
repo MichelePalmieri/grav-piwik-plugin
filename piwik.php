@@ -26,7 +26,9 @@ class piwikPlugin extends Plugin
 
         $siteId = trim($this->config->get('plugins.piwik.siteId'));
         $sitePiWikURL = trim($this->config->get('plugins.piwik.sitePiWikURL'));
-
+	    $sitePiWikURL = preg_replace('#^https?://#', '', rtrim($sitePiWikURL,'/'));
+	    $sitePiWikURL = preg_replace('#^http?://#', '', rtrim($sitePiWikURL,'/'));
+        
         if ($siteId && $sitePiWikURL) {
             $init = "
 //<!-- Piwik -->
