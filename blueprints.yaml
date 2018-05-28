@@ -1,13 +1,13 @@
 name: piwik
 version: 1.0.2
-description: "piwik plugin Grav website."
+description: "Piwik/Matomo plugin Grav website."
 icon: location-arrow
 author:
   name: Michele Palmieri
   email: michele@michelepalmieri.it
   url: http://michelepalmieri.it
 homepage: https://github.com/MichelePalmieri/grav-piwik
-keywords: piwik, plugin, tracking, analytics
+keywords: piwik, Matomo, plugin, tracking, analytics
 bugs: https://github.com/MichelePalmieri/grav-piwik/issues
 license: MIT
 
@@ -30,12 +30,12 @@ form:
       size: medium
       label: Site ID
       placeholder: 0
-      help: piwik tracking ID. In format integer.
+      help: Piwik/Matomo tracking ID. In format integer.
      
     sitePiWikURL:
       type: text
-      label: Piwik URL
+      label: Piwik/Matomo URL
       size: medium
       placeholder: example.com/privacy-url
-      description: Please enter Piwik server location without 'http://' or 'https://'
-      help: Add Piwik URL
+      description: Please enter piwik/Matomo server location without 'http://' or 'https://' 
+      help: Add Piwik/Matomo URL
