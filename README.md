@@ -1,11 +1,11 @@
 # grav-piwik-plugin
-Piwik plugin lets you embed the tracking to the Grav website.
+Piwik/Matomo plugin lets you embed the tracking to the Grav website.
 
-This is [Grav CMS](http://getgrav.org) plugin that helps you implement [Piwik](https://piwik.org).
+This is [Grav CMS](http://getgrav.org) plugin that helps you implement [Piwik/Matomo](https://matomo.org).
 
 # Installation
 
-Installing the Piwik plugin can be done in one of two ways.
+Installing the Piwik/Matomo plugin can be done in one of two ways.
 
 ## GPM Installation (Preferred)
 
